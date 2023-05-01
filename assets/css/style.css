@@ -48,6 +48,12 @@ h1 {
     margin-bottom: 20px;
     margin:3px;
 }
+ p {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
 .details {
     display: inline-block;
     margin-left: 20px;
@@ -60,7 +66,25 @@ a{
 } 
 
 .pic2 {
-    align-items: center;
-    max-width: 500px;
+    display: block;
+    margin-left: 20px;
+    max-width: 600px;
+    text-align: center;
+
+}
+.next-to {
+    display: inline-flex;
+    margin-;
+}
+ 
+.border ul li {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    align-items: space-between;
+}
+.titles {
+    display: flex;
+    flex-direction: row;
 
 }
