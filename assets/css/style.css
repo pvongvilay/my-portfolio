@@ -66,15 +66,15 @@ a{
 } 
 
 .pic2 {
-    display: block;
-    margin-left: 20px;
-    max-width: 600px;
+    display: inline-flex;
+    /* margin-left: 10px; */
+     width:100%;
     text-align: center;
 
 }
 .next-to {
     display: inline-flex;
-    margin-;
+    margin-left:10px
 }
  
 .border ul li {
@@ -84,7 +84,36 @@ a{
     align-items: space-between;
 }
 .titles {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+    margin: 2%;
+    padding: 2%;
+    max-width: 42%;
+   width:40%;
+}
+.titles img{
+    width:100%;
+}
+.titles header{
+    position: absolute;
+    top:10px;
+    left:15px;
+    background-color: black;
+    color:white;
+}
 
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    gap:2%;
+}
+
+#feature{
+    width: 90%;
+}
+
+.titles:nth-child(1){
+    min-width: 70%;
+    max-width: 90%;;
 }
