@@ -12,3 +12,5 @@ You're able to navigate through my page using the quick links up top. At the bot
 
 ## License
 Please refer to the License in the repo
+## Credits
+Sangeetha Kaliaperumal, she had assisted with some code when i had trouble.
